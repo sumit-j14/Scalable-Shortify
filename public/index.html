@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortify</title>
+</head>
+<body>
+    <form action="/shorten" method="post">
+        <label for="name">Enter long URL</label>
+        <input id="LONG" type="text" name="long_url" placeholder="https://xyz.com/v1/a/b/c">
+        <input type="submit" value="OK">
+    </form>
+    <form action="/access" method="get">
+        <label for="name">Enter short URL</label>
+        <input id="SHORT" type="text" name="short_url" placeholder="https://abcdefg">
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>
